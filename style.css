@@ -1,0 +1,135 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body{
+    margin-top: 0;
+}
+img{
+    display: inline-block;
+}
+b{
+    font-size: larger;
+}
+.heading{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 0px;
+    color: darkblue;
+}
+#head2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(36, 8, 190);
+}
+
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    margin-left: 40%;
+    padding: 5px;
+    box-shadow: 3px 3px 3px greenyellow;
+}
+.para{
+    color: aqua;
+    background-color: blueviolet;
+    text-align: center;
+}
+span{
+    text-align: center;
+    margin-left: 35%;
+}
+ol{
+    list-style: decimal-leading-zero;
+    background: #ff9999;
+    padding: 20px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: upper-roman;
+    background: #3399ff;
+    padding: 20px;
+}
+ol li {
+    background: #ffe5e5;
+    color: black;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+.deep{
+    background-color: lightblue;
+}
+.divfather{
+    border: 1px solid red;
+}
+.divone{
+    height: 250px;
+    width: 468px;
+    background-color: #3399ff;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(120, 32, 235);
+}
+.divtwo{
+    height: 250px;
+    width: 468px;
+    background-color: #8133ff;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    padding: 100px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(32, 235, 59);
+}
+.divthree{
+    height: 250px;
+    width: 468px;
+    background-color: #df1cae;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    padding: 100px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(43, 96, 240, 0.5);
+}
+.divfour{
+    width: 468px;
+    height: 250px;
+    background-image: url('bd.jpg');
+    background-position: center;
+    background-attachment: cover;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    padding: 100px;
+    font-size: larger;
+    border-radius: 5px;
+}
