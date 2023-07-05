@@ -4,6 +4,7 @@
 } */
 body{
     margin-top: 0;
+    margin-bottom: 0;
 }
 img{
     display: inline-block;
@@ -15,6 +16,7 @@ b{
     background-color: aqua;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
     color: darkblue;
 }
 #head2 {
