@@ -19,6 +19,7 @@ img{
 span{
     text-align: center;
     margin-left: 35%;
+    font-size: 30px;
 }
 ol{
     list-style: decimal-leading-zero;
@@ -27,9 +28,10 @@ ol{
     font-weight: bold;
 }
 ul{
-    list-style-type: upper-roman;
+    list-style-type: decimal-leading-zero;
     background: #3399ff;
     padding: 20px;
+    font-weight: bold;
 }
 ol li {
     background: #ffe5e5;
@@ -42,7 +44,7 @@ ol li {
 ul li {
     background: #cce5ff;
     color: darkblue;
-    margin: 5px;
+    padding: 5px;
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -109,4 +111,11 @@ ul li {
     padding: 100px;
     font-size: larger;
     border-radius: 5px;
+}
+.ol, .ul{
+    display: inline-block;
+    width: 940px;
+    height: 450px;
+    margin-top: 30px;
+    box-sizing: border-box;
 }
