@@ -9,35 +9,13 @@ body{
 img{
     display: inline-block;
 }
-b{
-    font-size: larger;
-}
-.heading{
-    background-color: aqua;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: darkblue;
-}
+
 #head2 {
     text-align: center;
     font-weight: bold;
     color: rgb(36, 8, 190);
 }
 
-button{
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    margin-left: 40%;
-    padding: 5px;
-    box-shadow: 3px 3px 3px greenyellow;
-}
-.para{
-    color: aqua;
-    background-color: blueviolet;
-    text-align: center;
-}
 span{
     text-align: center;
     margin-left: 35%;
@@ -69,9 +47,6 @@ ul li {
     margin-right: 20%;
   }
 
-.deep{
-    background-color: lightblue;
-}
 .divfather{
     border: 1px solid red;
 }
