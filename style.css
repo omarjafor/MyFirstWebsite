@@ -127,7 +127,11 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin-left: 45%;
 }
 a:hover{
     color: black;
+    background-color: green;
+    font-weight: bold;
+    border: none;
 }
