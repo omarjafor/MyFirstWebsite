@@ -18,7 +18,7 @@ img{
 
 span{
     text-align: center;
-    margin-left: 35%;
+    margin-left: 25%;
     font-size: 30px;
 }
 ol{
@@ -146,17 +146,20 @@ table td, table th {
     border: 1px solid #ddd7d7;
     padding: 6px;
     font-size: 18px;
+    width: 35vh;
 }
 table tr:nth-child(even){
     background-color: #f2f2f2;
 }
 table tr:hover{
-    background-color: #ddd;
+    background-color: #929497f6;
+    font-weight: bold;
 }
 table th{
-    background-color: #07afe2;
+    background-color: #0b50e6;
     padding: 6px;
     color: white;
     font-weight: bolder;
     text-align: left;
+    height: 40px;
 }
