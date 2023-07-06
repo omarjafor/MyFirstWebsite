@@ -28,7 +28,7 @@ ol{
     font-weight: bold;
 }
 ul{
-    list-style-type: decimal-leading-zero;
+    list-style-type: square;
     background: #3399ff;
     padding: 20px;
     font-weight: bold;
@@ -118,4 +118,16 @@ ul li {
     height: auto;
     margin-top: 30px;
     box-sizing: border-box;
+}
+a{
+    background-color: #3399ff;
+    color: white;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    color: black;
 }
