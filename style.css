@@ -163,3 +163,14 @@ table th{
     text-align: left;
     height: 40px;
 }
+.aaa{
+    margin-left: 0px;
+}
+.table {
+    border: 2px solid black;
+}
+caption{
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
