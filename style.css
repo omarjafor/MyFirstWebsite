@@ -194,8 +194,16 @@ caption{
     display: grid;
     /* grid-template-columns: 200px 200px auto; */
     /* grid-template-columns: repeat(5, 300px); */
-    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
 }
 .items{
     border: 1px solid aqua;
+}
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
 }
