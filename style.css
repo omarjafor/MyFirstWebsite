@@ -174,3 +174,12 @@ caption{
     font-size: 18px;
     font-weight: bold;
 }
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+.login-form input{
+    margin-top: 20px;
+}
