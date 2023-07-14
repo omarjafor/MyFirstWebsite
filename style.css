@@ -267,3 +267,21 @@ caption{
         height: 70%;
     }
 }
+.container-grid{
+    background-color: #2d87e2;
+    padding: 20px;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: 100px 200px auto; */
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px 10px;
+    justify-content: center;
+    /* align-content: end; */
+}
+.grid{
+    background-color: #d41d9d;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
