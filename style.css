@@ -302,3 +302,40 @@ caption{
     width: 100%;
     height: auto;
 }
+.blog-container{
+    display: flex;
+}
+button{
+    padding: 10px;
+    background-color: #0b50e6;
+}
+.bd-blog{
+    margin: 10px;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .blog-img{
+        width: 100%;
+        height: auto;
+    }
+    .blog-container{
+        display: block;
+    }
+    .bd-blog{
+        width: 100%;
+    }
+}
+.blog-container-2{
+    display: flex;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .blog-img-2{
+        width: 100%;
+        height: auto;
+    }
+    .blog-container-2{
+        flex-direction: column-reverse;
+    }
+    .bd-blog-2{
+        width: 100%;
+    }
+}
