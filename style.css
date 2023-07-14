@@ -17,18 +17,24 @@ img{
 }
 
 span{
-    text-align: center;
-    margin-left: 25%;
-    font-size: 30px;
+    margin-left: 20%;
+    font-size: 20px;
 }
-ol{
+.checklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ol{
+    width: 50%;
     list-style: decimal-leading-zero;
     background: #ff9999;
     padding: 20px;
     list-style-position: inside;
     font-weight: bold;
 }
-ul{
+.ul{
+    width: 50%;
     list-style-type: square;
     background: #3399ff;
     padding: 20px;
@@ -38,32 +44,24 @@ ol li {
     background: #ffe5e5;
     color: black;
     padding: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
   }
   
 ul li {
     background: #cce5ff;
     color: darkblue;
     padding: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
 .divfather{
     border: 1px solid red;
+    display: flex;
 }
 .divone{
     height: 250px;
-    width: 468px;
+    width: 25%;
     background-color: #3399ff;
     border: 2px solid black;
-    display: inline-block;
     box-sizing: border-box;
-    border-collapse: collapse;
-    position: relative;
-    text-align: center;
-    padding: 100px;
     font-size: larger;
     font-weight: bold;
     border-radius: 5px;
@@ -71,45 +69,32 @@ ul li {
 }
 .divtwo{
     height: 250px;
-    width: 468px;
+    width: 25%;
     background-color: #8133ff;
     border: 2px solid black;
-    display: inline-block;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    padding: 100px;
     font-size: larger;
     font-weight: bold;
-    text-align: center;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(32, 235, 59);
 }
 .divthree{
     height: 250px;
-    width: 468px;
+    width: 25%;
     background-color: #df1cae;
     border: 2px solid black;
-    display: inline-block;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    padding: 100px;
     font-size: larger;
     font-weight: bold;
-    text-align: center;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(43, 96, 240, 0.5);
 }
 .divfour{
-    width: 468px;
+    width: 25%;
     height: 250px;
     background-image: url('bd.jpg');
     background-position: center;
     background-attachment: cover;
     border: 2px solid black;
-    display: inline-block;
     box-sizing: border-box;
-    border-collapse: collapse;
-    padding: 100px;
     font-size: larger;
     border-radius: 5px;
 }
@@ -194,8 +179,8 @@ caption{
     display: grid;
     /* grid-template-columns: 200px 200px auto; */
     /* grid-template-columns: repeat(5, 300px); */
-    /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(3, 300px); */
     justify-content: space-between;
 }
 .items{
