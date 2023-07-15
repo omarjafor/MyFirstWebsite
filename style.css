@@ -372,3 +372,13 @@ button{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/* Resonsive Media Quary  */
+@media screen and (max-width: 576px) {
+    .row{
+        display: block;
+        height: auto;
+    }
+    .box-col{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
