@@ -398,3 +398,37 @@ button{
 .item2-11, .item2-12{
     grid-column: span 3;
 }
+.header, .navbar, .main, .sidebar, .advertise, .footer{
+    background-color: rgb(224, 221, 44);
+    border: 2px solid rgb(34, 80, 233);
+    padding: 10px;
+    border-radius: 5px;
+}
+.header{
+    grid-area: header;
+}
+.navbar{
+    grid-area: navbar;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.advertise{
+    grid-area: advertise;
+}
+.footer{
+    grid-area: footer;
+}
+.layout-container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header"
+    "navbar main main sidebar"
+    "navbar main main advertise"
+    "footer footer footer footer"
+    ;
+}
