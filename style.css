@@ -432,3 +432,26 @@ button{
     "footer footer footer footer"
     ;
 }
+@media screen and (max-width: 576px) {
+    .layout-container{
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "main"
+        "sidebar"
+        "advertise"
+        "footer"
+        ;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .layout-container{
+        grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "sidebar main main"
+        "advertise footer footer"
+        ;
+    }
+}
