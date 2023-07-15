@@ -382,3 +382,19 @@ button{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+.container-grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px) 50px 50px;
+    gap: 20px;
+    padding: 100px;
+}
+.grid2{
+    background-color: gray;
+}
+.item2-1{
+    grid-row: span 5;
+}
+.item2-11, .item2-12{
+    grid-column: span 3;
+}
