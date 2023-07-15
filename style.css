@@ -92,11 +92,22 @@ ul li {
     height: 250px;
     background-image: url('bd.jpg');
     background-position: center;
-    background-attachment: cover;
+    background-repeat: no-repeat;
     border: 2px solid black;
     box-sizing: border-box;
     font-size: larger;
     border-radius: 5px;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .divfather{
+        flex-wrap: wrap;
+    }
+    .divone, .divtwo, .divthree, .divfour{
+        width: 100%;
+    }
+    .divfour{
+        background-color: #3399ff;
+    }
 }
 .ol, .ul{
     display: inline-block;
